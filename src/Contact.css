@@ -1,0 +1,87 @@
+.main_contact {
+    min-height: 80vh;
+    color: white;
+    margin: 40px 30px 0px 40px;
+}
+
+.main_cont_about {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.hr-lines_project:before{
+    content:" ";
+    display: block;
+    height: 2px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: -142%;
+    background: #4b1dd0;
+  }
+
+  .hr-lines_project {
+    position: relative;
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+
+.main_child_two_contact > p {
+    margin-top: 20px;   
+}
+
+.email {
+    align-items: center;
+    margin-top: 20px;
+    padding: 17px;
+    font-size: 17px;
+    border: 1px solid #4b1dd0;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.joke {
+    text-align: left;
+    font-size: 14px;
+}
+
+.iconsfa_contact   {
+    padding: 20px 10px;
+    font-size: 20px;
+}
+
+.link {
+    text-decoration: underline;
+  }
+
+@media all and (min-width: 100px) and (max-width: 480px) { 
+
+    .main_contact {
+        min-height: 60vh;
+        margin: 40px 30px 0px 25px;
+    }
+
+    .email {
+        margin-top: 20px;
+        padding: 10px;
+        font-size: 15px;
+        border: 1px solid #4b1dd0;
+        border-radius: 5px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+
+    .iconsfa_contact   {
+        padding: 15px 10px;
+        font-size: 15px;
+    }
+    
+}

@@ -1,0 +1,11 @@
+.main_footer {
+    background: #4b1dd0;
+    color: white;
+    text-align: center;
+}
+
+.main_footer > p {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px;
+}
